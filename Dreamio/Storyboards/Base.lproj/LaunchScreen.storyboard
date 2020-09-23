@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="shv-Ws-uMb">
+            <objects>
+                <viewController id="IBe-7s-j76" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0TJ-7L-DDY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CCO-u5-HQj">
+                                <rect key="frame" x="93.666666666666671" y="0.0" width="187.66666666666663" height="812"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="bvU-BI-vCJ" userLabel="logo">
+                                        <rect key="frame" x="0.0" y="355.33333333333331" width="187.66666666666666" height="101.33333333333331"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cannaseur " textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3E-8V-iCE">
+                                        <rect key="frame" x="17" y="472" width="153.66666666666666" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="z4V-0v-IWD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The ultimate strain journal" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VZg-3P-2cb">
+                                        <rect key="frame" x="-6" y="509" width="199.66666666666666" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="bvU-BI-vCJ" firstAttribute="centerX" secondItem="CCO-u5-HQj" secondAttribute="centerX" id="5SJ-WM-JW2"/>
+                                    <constraint firstItem="bvU-BI-vCJ" firstAttribute="width" secondItem="CCO-u5-HQj" secondAttribute="width" multiplier="1:1" id="8Tu-dx-h4j"/>
+                                    <constraint firstItem="bvU-BI-vCJ" firstAttribute="height" secondItem="CCO-u5-HQj" secondAttribute="height" multiplier="1:8" id="8kV-Kd-2n8"/>
+                                    <constraint firstItem="k3E-8V-iCE" firstAttribute="centerX" secondItem="CCO-u5-HQj" secondAttribute="centerX" id="MTg-X2-CWk"/>
+                                    <constraint firstItem="bvU-BI-vCJ" firstAttribute="centerY" secondItem="CCO-u5-HQj" secondAttribute="centerY" id="POE-z1-GiS"/>
+                                    <constraint firstItem="VZg-3P-2cb" firstAttribute="top" secondItem="k3E-8V-iCE" secondAttribute="bottom" constant="8" id="Yxa-aj-8Za"/>
+                                    <constraint firstItem="VZg-3P-2cb" firstAttribute="leading" secondItem="CCO-u5-HQj" secondAttribute="leading" constant="-6" id="gu0-ae-rQG"/>
+                                    <constraint firstItem="k3E-8V-iCE" firstAttribute="top" secondItem="bvU-BI-vCJ" secondAttribute="bottom" constant="15.333333333333314" id="p4m-oo-5A9"/>
+                                    <constraint firstItem="k3E-8V-iCE" firstAttribute="leading" secondItem="CCO-u5-HQj" secondAttribute="leading" constant="17" id="tnJ-ys-tgY"/>
+                                    <constraint firstItem="VZg-3P-2cb" firstAttribute="centerX" secondItem="k3E-8V-iCE" secondAttribute="centerX" id="wI1-oT-Etf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fvB-AT-srF"/>
+                        <color key="backgroundColor" red="0.41952410340000001" green="0.72488957639999996" blue="0.39994162319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="CCO-u5-HQj" firstAttribute="width" secondItem="0TJ-7L-DDY" secondAttribute="width" multiplier="1:2" id="Bk4-eP-YLH"/>
+                            <constraint firstItem="CCO-u5-HQj" firstAttribute="centerX" secondItem="0TJ-7L-DDY" secondAttribute="centerX" id="BpS-9a-6n6"/>
+                            <constraint firstItem="CCO-u5-HQj" firstAttribute="height" secondItem="0TJ-7L-DDY" secondAttribute="height" id="En4-4h-V43"/>
+                            <constraint firstItem="CCO-u5-HQj" firstAttribute="centerY" secondItem="0TJ-7L-DDY" secondAttribute="centerY" id="gYb-Iq-Qbh"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BWq-xf-ilw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669.60000000000002" y="330.29556650246309"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="848" height="513"/>
+    </resources>
+</document>
